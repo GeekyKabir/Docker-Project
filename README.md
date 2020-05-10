@@ -4,6 +4,8 @@ Creating and configuring  Web Server using Mariadb:latest and Wordpress:5.1.1php
 In this project I am hosting a website with my own created server by using the docker container.
 Below is the code given which have to be present in the file docker-compose.yml 
 Here, we are using Docker images: Wordpress:5.1.1php7.3-apache and Mariadb:latest version and Docker-compose, for client side I am using mysql and to expose this website to outside world, we are using bridge adapter and in this I am using the concept NATing.
+
+
 #docker-compose.yml
 version: '3'
 
