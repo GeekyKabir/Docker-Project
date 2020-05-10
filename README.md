@@ -7,6 +7,8 @@ Here, we are using Docker images: Wordpress:5.1.1php7.3-apache and Mariadb:lates
 
 
 #docker-compose.yml
+
+
 version: '3'
 
 services:
